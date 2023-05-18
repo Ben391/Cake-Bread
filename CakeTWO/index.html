@@ -2,10 +2,6 @@
 <html lang="de">
     <!-- HAUPTFARBEN #8B5742 | #FDB813 | F5F5DC | #FF9961 | #5C563F -->
 
-    <!-- Bild für Header -->
-    <!-- Transition für Sections -->
-    <!-- -->
-
     <!-- HEAD | NICHT SEMANTISCH-->
     <head>
         <meta charset="UTF-8">
@@ -15,10 +11,8 @@
     <!-- BODY | NICHT SEMANTISCH-->
     <body>
         <!-- HEADER | SEMANTISCH-->
-            <header>
-                    <div class="container">
-                        <div id="logo"><img src="Bilder\Cake_Bread_Logo_280px.png" alt="Logo von Cake and Bread"></div>
-                    </div>
+            <header>                        
+                <div id="logo"><img src="Bilder\Cake_Bread_Logo_280px.png" alt="Logo von Cake and Bread"></div>
             </header>
 
             <!-- NAVIGATIONS LEISTE | SEMANTISCH-->
@@ -37,10 +31,11 @@
 
         <!-- ERSTE SEKTION | SEMANTISCH-->
         <section id="sec-1">
-                <h1>Traditionelle Bäckerei – Moderner Geschmack.</h1>
+            <div class="container">
+                <div id="introduction">
+                    <h1>Traditionelle Bäckerei – Moderner Geschmack.</h1>
 
-                <div class="sec1-relative-container">
-                    <div id="sec1-txt"><p>Mehl, Wasser und Salz – diese drei Zutaten reichen schon fast, 
+                    <p>Mehl, Wasser und Salz – diese drei Zutaten reichen schon fast, 
                     um frische und leckere Brote herzustellen. Mit den passenden Samen, 
                     Körnern und Kräutern zaubern wir täglich frische, handgemachte Backwaren. 
                     Dabei verzichten wir auf den Einkauf von industriellen Backmischungen 
@@ -48,12 +43,13 @@
                     Wir sind überzeugt: Bei unseren frischen, handgefertigten Backwaren 
                     schmeckt man Biss für Biss die Qualität.
                     </p>
-                    </div>
 
-                    <div id="sec1-img"><img src="Bilder\pexels-los-muertos-crew-8478178-skaliert2.jpg"></div>
-        
                 </div>
-                <p class="box">Du backst leidenschaftlich gern – und hast Lust auf ein frisches Team und und faire Arbeitsbedingungen? Wir suchen Unterstützung im Be-reich Bäckerei und im Service. Melde dich gern per Mail bei uns oder komm vorbei. </p>  
+                <div id="owner_image"><img src="Bilder\CakeAndBreadMann.jpg"></div>
+            </div>
+            <div class="container">
+                <p class="box">Du backst leidenschaftlich gern – und hast Lust auf ein frisches Team und und faire Arbeitsbedingungen? Wir suchen Unterstützung im Be-reich Bäckerei und im Service. Melde dich gern per Mail bei uns oder komm vorbei. </p>
+            </div>        
         </section>
 
         <!-- ZWEITE SEKTION | SEMANTISCH-->

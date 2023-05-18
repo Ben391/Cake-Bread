@@ -22,20 +22,10 @@ header {
     background-image: url(Bilder/BreadHeader.png);
     background-size: cover;
 }
-.container {
-    display: flex;
-    height: auto;
-    justify-content: space-between;
-    
-}
 
-/* BODY */
-body {
-    background-color: #f5f5d8;
-    color: #8B5742;
-    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+#logo {
+    padding: 40px 0 40px 20px;
 }
-
 
 /* NAV */
 
@@ -61,7 +51,7 @@ a {
 
 a:hover {  
     background-color: #8B5742;
-    color: #FDB813
+    color: #FDB813;
 }
 
 nav li {
@@ -75,3 +65,74 @@ nav a {
     display: inline-block;
     padding: 15px 45px 15px 45px;
 }
+
+/* GENERAL TEXT FORMATTING */
+
+h1 {
+    font-size: 3rem;
+}
+
+h1, h2 {
+    margin-bottom: 40px;
+    text-align: start;
+    color: #5C563F;
+}
+
+/* BODY */
+body {
+    background-color: #ffc37fc1;
+    color: #8B5742;
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 20px 20px 20px 40px;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 3840px;
+    justify-content: center;
+}
+
+
+/* SECTION 1 */
+
+#sec-1 {
+    margin-top: 60px;
+}
+
+#sec-1 p{
+    max-width: 100ch;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+}
+
+#sec-1 #introduction {
+    order: 1;
+}
+
+#sec-1 img {
+    border: 3px solid #8B5742;
+    border-radius: 50%;
+    width: 100%;
+    min-width: 150px;
+    max-width: 250px; 
+    margin-right: 50px;
+}
+
+.box {
+    width: 100%;
+    max-width: auto;
+    color: rgb(75, 38, 11);
+    background-color: #FDB813;
+    border:  1px solid rgb(0, 97, 0);
+    background-image: url(Bilder/Limettentransparent50trps.png);
+    padding: 25px;
+    margin-top: 100px;
+  }
