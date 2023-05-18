@@ -24,7 +24,7 @@ header {
 }
 
 #logo {
-    padding: 40px 0 40px 20px;
+    padding: 40px 0 40px 80px;
 }
 
 /* NAV */
@@ -73,6 +73,7 @@ h1 {
 }
 
 h1, h2 {
+    margin-top: 0;
     margin-bottom: 40px;
     text-align: start;
     color: #5C563F;
@@ -93,7 +94,6 @@ section {
 
 .container {
     display: flex;
-    height: auto;
     width: 100%;
     max-width: 3840px;
     justify-content: center;
@@ -103,18 +103,28 @@ section {
 /* SECTION 1 */
 
 #sec-1 {
-    margin-top: 60px;
+    padding-top: 60px;
+    background-color: #fbd290;
+    background-image: url(Bilder/modernbakery.png);
+    background-size: cover;
 }
 
 #sec-1 p{
-    max-width: 100ch;
     font-size: 1.5rem;
     line-height: 1.5rem;
 
 }
 
-#sec-1 #introduction {
+#introduction {
     order: 1;
+}
+
+#introduction p {
+    max-width: 75ch;
+}
+
+#owner_image {
+    margin-right: 40px; 
 }
 
 #sec-1 img {
@@ -122,13 +132,13 @@ section {
     border-radius: 50%;
     width: 100%;
     min-width: 150px;
-    max-width: 250px; 
-    margin-right: 50px;
+    max-width: 200px; 
 }
 
 .box {
-    width: 100%;
-    max-width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     color: rgb(75, 38, 11);
     background-color: #FDB813;
     border:  1px solid rgb(0, 97, 0);
