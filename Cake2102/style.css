@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* CSS Reset */
+html, body{
+    padding:  0;         
+    margin:   0; }
+
+
+/* Header */
+header {
+    padding: 20px 60px 20px 60px;
+    background-color: #f7c9ac;
+}
+
+/* BODY */
+body {
+    background-color: #f5f5d8;
+    color: rgb(161,116,43);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+h1, h2 {
+    color: peru;
+}
+/* BODY SECTION */ 
+section {
+    padding: 20px 60px 20px 60px;
+    margin: 0px;
+}
+
+#sec-1 {
+    background-color: #f1e5da;
+}
+
+#sec-2 {
+    background-color: #eddcd2;
+}
+
+#sec-3 {
+    background-color: #fff1e6;
+}
+
+#sec-3-5 {
+    background-color: #ebdacb;
+}
+
+#sec-4 {
+    background-color: #f4e5dc;
+}
+
+#sec-5 {
+    background-color: #fde1d1;
+}
+
+
+
+/* NAVIGATION */
+
+nav {
+    background-color: #f7c9ac;
+    position: sticky;
+    top:0%;
+    width: 100%;
+}
+ul {
+    margin: 0;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+a:hover {  
+    background-color: pink;
+    color: rgb(88, 42, 3);
+}
+
+nav a {
+    color: peru;
+    font-size: 1.5rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 45px 15px 45px;
+}
+
+/* Info Box */
+
+.box {
+    width: 650px;
+    color: rgb(0, 97, 0);
+    background-color: rgb(226, 255, 211);
+    border:  1px solid rgb(0, 97, 0);
+    border-radius: 18px;
+    background-image: url(Bilder/Limettentransparent50trps.png);
+    padding: 25px;
+    /*display: inline;*/
+  }
+
+
+/* Tabellen */
+
+.tables {
+    width: 80%;
+    max-width: 1000px;
+}
+
+.tables th, .tables td {
+    font-size: 20px;
+    border: 2px solid #ebdacb;
+    padding: 0.8%;
+    background-color: #e7d3c2;
+}
+
+.tables th {
+    padding: 1.2% 0;
+    background-color: #f7c9ac;
+}
+
+.tables tbody {
+    text-align: center;
+}

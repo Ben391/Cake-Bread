@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+/* GOOGLE FONTS */
+@font-face {
+    font-family: 'Dosis';
+    src: url(Dosis/static/Dosis-Bold.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* CSS Reset */
+html, body{
+    padding:  0;         
+    margin:   0; }
+
+
+/* Header */
+header {
+    padding: 20px 60px 20px 60px;
+    background-color: #8B5742;
+}
+
+/* BODY */
+body {
+    background-color: #f5f5d8;
+    color: #8B5742;
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    text-align: start;
+    margin: 0px auto;
+}
+
+h1, h2 {
+    color: #8B5742;
+    margin-bottom: 40px;
+    text-align: start;
+    
+}
+/* BODY SECTION */ 
+section {
+    padding: 20px 60px 20px 200px;
+    scroll-margin: 63px;
+    max-width: 800px;
+}
+
+#sec-1 {
+    background-color: #F5F5DC;
+}
+
+.sec1-relative-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.sec1-txt {
+    height: auto;
+}
+
+.sec1-relative-container img{
+    border:  3px solid peru;
+    border-radius: 18px;
+    width: 220%;
+}
+
+.sec1-img {
+    width: 20%;
+    max-width: 250px;
+}
+
+
+#sec-2 {
+    background-color: #F5F5DC;
+}
+
+#sec-3 {
+    background-color: #F5F5DC;
+}
+
+#sec-4 {
+    background-color: #F5F5DC;
+}
+
+#sec-5 {
+    background-color: #F5F5DC;
+}
+
+#sec-6 {
+    background-color: #F5F5DC;
+}
+
+
+
+/* NAVIGATION */
+
+nav {
+    background-color: #FDB813;
+    position: sticky;
+    top:0%;
+    width: 100%;
+}
+ul {
+    margin: 0;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+a:hover {  
+    background-color: pink;
+    color: rgb(88, 42, 3);
+}
+
+nav a {
+    color: #8B5742;
+    font-size: 1.5rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 45px 15px 45px;
+}
+
+/* Info Box */
+
+.box {
+    width: 650px;
+    color: rgb(0, 97, 0);
+    background-color: rgb(226, 255, 211);
+    border:  1px solid rgb(0, 97, 0);
+    border-radius: 18px;
+    background-image: url(Bilder/Limettentransparent50trps.png);
+    margin:  30px;
+    padding: 25px;
+    /*display: inline;*/
+  }
+
+/* Tabellen */
+
+.tables {
+    width: 80%;
+    max-width: 1000px;
+}
+
+.tables th, .tables td {
+    font-size: 20px;
+    border: 2px solid #ebdacb;
+    padding: 0.8%;
+    background-color: #e7d3c2;
+}
+
+.tables th {
+    padding: 1.2% 0;
+    background-color: #f7c9ac;
+}
+
+.tables tbody {
+    text-align: center;
+}
+
+/* Produkt Fotos Align */
+
+.flex-product-pictures{
+    margin-top: 5em;
+    gap: 2em;
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+    justify-content: center;
+}
+
+.flex-product-pictures img{
+    border:  3px solid peru;
+    border-radius: 18px;
+    width: 100%;
+    max-width: 250px;
+}
+

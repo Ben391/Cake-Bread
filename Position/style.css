@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    height: 650px;
+    background-color: lightblue;
+    position: relative;
+    font-family: Helvetica;
+}
+
+.tesa {
+    background-color: rgb(255, 255, 194);
+    position: absolute;
+    width: 15%; /*100px*/
+    height: 8%; /*50px*/
+    top: 7%; /*45px*/
+    right: 50%; /*400px*/
+    z-index: 1;
+}
+
+.postit {
+    background-color: rgb(174, 174, 174);
+    width: 63%; /*500px*/
+    height: 46%; /*300px*/
+    position: absolute;
+    text-align: center;
+    top: 11%; /*70px*/
+    right: 25%; /*200px*/
+}
+
+.postit-text {
+    font-style: italic;
+}
+
+.schatten {
+    width: 63%; /*500px*/
+    height: 3%; /*20px*/
+    background-color: rgb(97, 97, 97);
+    position: absolute;
+    text-align: center;
+    right: 25%; /*200px*/
+    top: 57%; /*370px*/
+
+}
+
