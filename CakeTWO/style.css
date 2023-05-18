@@ -19,7 +19,8 @@ html, body{
 header {
     /* padding: 20px 60px 20px 60px; */
     background-color: #8B5742;
-    background-image: url(Bilder/brot_closeup.png);
+    background-image: url(Bilder/BreadHeader.png);
+    background-size: cover;
 }
 .container {
     display: flex;
